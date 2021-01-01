@@ -50,7 +50,7 @@ Here is a working live demonstration: https://mrblach.github.io/task-list/
 ### Technologies used:
 
 - HTML
-- Javascript [logic/functionality]
+- Javascript
 
 ---
 <h1 id="development">Development</h1>
