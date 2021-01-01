@@ -27,7 +27,7 @@ A simple app demonstrating a list generator in combination with local storage. A
 
 + Add items to list
 + Filter list items based on character
-+ Delete itmes individually or clear all items
++ Delete items individually or clear all items
 + Alert box warning before deletion
 + Responsive Design
 
@@ -61,9 +61,9 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### Bug Report/ Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/MRBlach/covid-19/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/MRBlach/task-list/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/MRBlach/covid-19/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/MRBlach/task-list/issues/new). Please include sample queries and their corresponding results.
 
 ---
 <h1 id="team">Team</h1>
