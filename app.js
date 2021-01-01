@@ -1,16 +1,14 @@
-//Define UI Variables
+// Define UI Variables
 const form = document.querySelector('#task-form');
 const taskList = document.querySelector('.collection');
 const clearBtn = document.querySelector('.clear-tasks');
 const filter = document.querySelector('#filter');
 const taskInput = document.querySelector('#task');
 
-//hide clear tasks button
+// Hide clear tasks button
 document.getElementById('none').style.display = 'none';
 
 
-
-//ccccccccccccccCREATE EVENT LISTENERS
 // Load all event listeners
 loadEventListeners();
 
@@ -25,15 +23,8 @@ function loadEventListeners(){
   clearBtn.addEventListener('click', clearTasks);
   //Filter tasks event
   filter.addEventListener('keyup', filterTasks);
-
-  clearBtn.addEventListener('click', cantClearTasks);
 }
 
-
-
-
-
-//fffffffffffffffffffffffFUNCTIONS
 
 //Get tasks from local storage function 
 function getTasks() {
@@ -68,8 +59,6 @@ function getTasks() {
           taskList.appendChild(li);
   });
 }
-
-
 
 
 //Add task function
@@ -157,9 +146,6 @@ function removeTaskFromLocalStorage(taskItem){
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
- 
-
-
 
 //Clear tasks
   function clearTasks(e){
@@ -177,14 +163,11 @@ function removeTaskFromLocalStorage(taskItem){
   }
 }
 
-
   //Clear tasks from local storage function
   function clearTaskFromLocalStorage(){
     localStorage.clear();
   }    
     
-
-
 
 //Filter tasks function
 function filterTasks(e){
