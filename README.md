@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
   <img src="https://i.ibb.co/FnG6Kmr/thumbnail.png" width="200px">
+  <br>
 Task List App
 </h1> 
 <p align="center">
