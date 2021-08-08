@@ -40,7 +40,7 @@ Responsive design and mobile first approach allow for ease of access across devi
 
 <img src="images/viewports.png">
 
-Here is a working live demonstration: https://mrblach.github.io/task-list/
+Here is a working live [demonstration](https://mrblach.github.io/task-list/)
 
 ### Steps To Execute This App
 
